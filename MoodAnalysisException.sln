@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodAnalysisException", "MoodAnalysisException\MoodAnalysisException.csproj", "{4A0673D7-F6CE-4ED5-8B00-CAE9446A7A73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodAnalyserException", "MoodAnalysisException\MoodAnalyserException.csproj", "{4A0673D7-F6CE-4ED5-8B00-CAE9446A7A73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{B024D28F-AC81-4BE4-B476-37869815D22F}"
 EndProject

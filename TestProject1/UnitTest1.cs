@@ -7,6 +7,7 @@ namespace MoodAnalyser
     [TestClass]
     public class MoodAnalyser
     {
+        //uc1 given  happy or sad return happy or sad
         [TestMethod]
         public void GivenhappyShouldbereturnHappy()
         {
@@ -37,7 +38,22 @@ namespace MoodAnalyser
             //Assert
             Assert.AreEqual(Expected, actuall);
         }
+        //uc2 user invalid mood 
+        [TestMethod]
+            [TestCategory("negativeSenario")]
+        public void GivenNullShouldbeReturnHappy()
+        {
+            ///AAA methodology
+            // Arrange
+            string Expected = "happy";
+            MoodAnalysertest obj = new MoodAnalysertest(null);
 
+            //Act
+            string actuall = obj.AnalyseMood();
+
+            //Assert 
+            Assert.AreEqual(Expected, actuall);
+        }
 
     }
 }

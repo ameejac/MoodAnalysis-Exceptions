@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MoodAnalysisException\MoodAnalysisException.csproj" />
+    <ProjectReference Include="..\MoodAnalysisException\MoodAnalyserException.csproj" />
   </ItemGroup>
 
 </Project>
